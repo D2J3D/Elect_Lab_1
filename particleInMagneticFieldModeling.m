@@ -27,7 +27,6 @@ for i=1:1000
     v_x = v_x - (e / m) * (v_y * B_z - v_z * B_y) * h;
     v_y = v_y + (e / m) * (v_x * B_z) * h;
     v_z = v_z - (e / m) * (v_x * B_y) * h;
-    disp (B_y)
     x = x + v_x * h;
     y = y + v_y * h;
     z = z + v_z * h;
