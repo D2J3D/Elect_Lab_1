@@ -35,10 +35,9 @@ for i=1:1000
     Z(i) = z;
 end
 
-plot(X, Z)
-%plot3(X, Y, Z);
+plot3(X, Y, Z);
 grid on
 title('Траектория движения заряженной частицы в поле прямого тока')
 xlabel('x')
 ylabel('y')
-%zlabel('z')
+zlabel('z')
